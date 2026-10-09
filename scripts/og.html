@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { margin: 0; width: 1200px; height: 630px; display: flex; align-items: center; gap: 56px; padding: 0 80px; box-sizing: border-box;
+    background: linear-gradient(135deg, #0f1115 0%, #17252a 100%); color: #e6e8ec; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  img { width: 300px; height: 300px; border-radius: 64px; box-shadow: 0 20px 60px rgba(0,0,0,.5); }
+  h1 { font-size: 64px; line-height: 1.05; margin: 0 0 20px; }
+  p { font-size: 28px; color: #9aa1ad; margin: 0 0 28px; line-height: 1.35; }
+  code { display: block; font-size: 24px; color: #86efac; background: #0b0d11; padding: 14px 18px; border-radius: 10px; margin-bottom: 28px; }
+  .url { font-size: 22px; color: #2dd4bf; }
+</style>
+</head>
+<body>
+  <img src="../public/favicon.svg" alt="">
+  <div>
+    <h1>SQL over big files, in your browser</h1>
+    <code>SELECT region, sum(revenue) FROM 'sales.parquet'</code>
+    <p>Open CSV, Parquet and JSON, profile, query, chart, export. Nothing is uploaded.</p>
+    <div class="url">hermes98761234.github.io/csv-sql-explorer</div>
+  </div>
+</body>
+</html>
